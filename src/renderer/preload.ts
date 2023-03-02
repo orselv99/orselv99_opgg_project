@@ -19,4 +19,6 @@ const ipcApis = {
   },
 }
 
+// 갓뎀!
+
 contextBridge.exposeInMainWorld('ipcRenderer', ipcApis);
